@@ -1,0 +1,65 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  background: #7FA8BC;
+
+}
+
+h1
+{
+  padding: 2vh;
+  margin:0;
+  color: #232E34;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 5em;
+  text-align: center;
+
+}
+
+p
+{
+  color: #D0DFE6;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  margin: 0;
+}
+
+.formularioDatos
+{
+  margin-top: 5vh;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-align: center;
+}
+
+.dato
+{
+  font-size: 2em;
+  color: #F3F7F8;
+}
+
+.lista-desplegable
+{
+  width: 13vw;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: .6em;
+  border-radius: 5px;
+  border: 1px solid #232E34;
+  box-shadow: 0px 1px 2px black;
+  text-align: center;
+}
+
+.boton_enviar
+{
+  padding: 5px 20px;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.5em;
+  color: #F3F7F8;
+  background: #516B78;
+  border-radius: 15px;
+  border: 1px solid #232E34;
+  box-shadow: 0px 2px 3px black;
+}

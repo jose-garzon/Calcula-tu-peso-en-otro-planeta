@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>Tu peso en otro planeta</title>
+    <! -- link a codigo css -->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Barlow+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+
+
+  <body>
+    <div class="container">
+      <h1>TU PESO EN OTRO PLANETA</h1>
+
+      <p>En la <strong>TIERRA</strong> tu peso es distinto <br/> que otros planetas del sistema solar</p>
+
+      <form class="formularioDatos" action="index.html" method="post">
+        <div class="dato">
+          <label for="peso-usuario">¿Cual es tu peso?</label> <br/>
+          <input class="lista-desplegable" type="text" name="peso-usuario" placeholder="Ej: 80" id="peso-usuario">
+        </div>
+        <div class="dato">
+          <label for="planeta">Elige un planeta</label> <br/>
+          <select class="lista-desplegable" name="planeta" id="planeta">
+            <option value="Mercurio">Mercurio</option>
+            <option value="Venus">Venus</option>
+            <option value="Marte">Marte</option>
+            <option value="Jupiter">Jupiter</option>
+            <option value="Saturno">Saturno</option>
+            <option value="Urano">Urano</option>
+            <option value="Neptuno">Neptuno</option>
+          </select>
+        </div>
+        <button type="button" name="enviar" class="boton_enviar" id="boton">CALCULAR</button>
+      </form>
+
+    </div>
+
+    <h1 id="resultado">Tu peso</h1>
+
+    <! -- link a codigo javascript -->
+    <script type="text/javascript"src="script.js"></script>
+  </body>
+
+
+</html>
