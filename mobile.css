@@ -1,0 +1,16 @@
+@media (max-width:600px)
+{
+  h1
+  {
+    font-size: 3em;
+  }
+  .lista-desplegable
+  {
+    width: 60%;
+  }
+  .boton_enviar
+  {
+    width: 40%;
+    margin-bottom: 5vw;
+  }
+}
